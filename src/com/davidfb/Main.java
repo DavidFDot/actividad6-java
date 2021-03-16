@@ -26,7 +26,7 @@ public class Main {
         promedio = calcularPromedio(calificaciones);
         calificacion = calificar(promedio);
 
-        System.out.println("Listo, imprimiendo Reporte:");
+        System.out.println("\nListo, imprimiendo Reporte:");
 
         imprimirCalificaciones(nombre,calificaciones,promedio,calificacion);
 
@@ -62,7 +62,7 @@ public class Main {
         for (int i = 0; i < calificaciones.length; i++) {
             System.out.println("Calificacion " + (i + 1) + ": {" + calificaciones[i] + "}");
         }
-        System.out.println("Promedio: " + promedio);
-        System.out.println("Calificacion: " + calificacion);
+        System.out.println("Promedio: {" + promedio + "}");
+        System.out.println("Calificacion: {" + calificacion + "}");
     }
 }
